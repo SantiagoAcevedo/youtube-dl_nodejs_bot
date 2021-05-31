@@ -1,4 +1,4 @@
-# youtube-dl_nodejs_bot
+# youtube-dl_nodejs_bot (Telegram Bot)
 Bot em NodeJS para YouTube Dl
 # Comandos
 Alguns comandos:
