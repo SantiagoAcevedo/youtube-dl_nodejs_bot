@@ -17,7 +17,7 @@ var request = require('request');
 var fila = []; //CRIA FILA EM ARRAY DE DOWNLOADS
 
 function verifica_link (url){
-    const options = ['--username=user', '--password=hunter2']
+    const options = ['--username=user', '--password=senha']
     youtubedl.getInfo(url, options, function(err, info) {
         if(err){
             return false;
@@ -59,9 +59,10 @@ function alerta_telegram (chatid,msg){
 }
 
 function video_info(id){
+	//DESATIVADO/////
     remover_da_fila(id)
     const youtubedl = require('youtube-dl')
-    const url = 'http://www.youtube.com/watch?v=WKsjaOqDXgg'
+    const url = '#URL#'
     // Optional arguments passed to youtube-dl.
     const options = ['--username=user', '--password=hunter2']
     youtubedl.getInfo(url, options, function(err, info) {
