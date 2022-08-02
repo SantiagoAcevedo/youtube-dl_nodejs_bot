@@ -4,7 +4,7 @@ Bot em NodeJS para YouTube Dl
 Alguns comandos:
 ```
 http://#URL#:#PORTA#/REINICIAR --> Reinicia o script (Auto Restart!)
-http://#URL#:#PORTA#/LIMPAR --> Limpa downloads realziados
+http://#URL#:#PORTA#/LIMPAR --> Limpa downloads realizados
 http://#URL#:#PORTA#/DL/:chatid/:id/:url/:formato/:modo
 http://#URL#:#PORTA#/INFO/:url/:formato
 ```
